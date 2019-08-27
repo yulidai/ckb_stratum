@@ -72,7 +72,7 @@ Send Example (nonce: u64):
   "method": "ckb_submitWork",
   "params": {
     "pow_hash": "0x6349f73a19471aff5aa5189b018c5d6db7e435c14d00bccfba5a6896bdfc15cf",
-    "nonce": "696156429613104250"
+    "nonce": "0x9a93e9597317c7a"
   }
 }
 ```
