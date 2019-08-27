@@ -47,8 +47,8 @@ Response (target: H256, pow_hash: H256):
 {
   "id": 2,
   "result": {
-    "pow_hash": "0xaf90c05a5fa4f1a4dc8b4833ae25a469fec4e603324322192ed28e1a80436d08",
-    "target": "0x00da48009952bc0688f76177fea7170fc8de9054b0d2760644c9e0ee48deb890"
+    "pow_hash": "0x6349f73a19471aff5aa5189b018c5d6db7e435c14d00bccfba5a6896bdfc15cf",
+    "target": "0x00068db8bac710cb295e9e1b089a027525460aa64c2f837b4a2339c0ebedfa42"
   }
 }
 ```
@@ -58,8 +58,8 @@ Response(Server active push job, format ibid but `id` always zero
 {
   "id": 0,
   "result": {
-    "pow_hash": "0xaf90c05a5fa4f1a4dc8b4833ae25a469fec4e603324322192ed28e1a80436d08",
-    "target": "0x00da48009952bc0688f76177fea7170fc8de9054b0d2760644c9e0ee48deb890"
+    "pow_hash": "0x6349f73a19471aff5aa5189b018c5d6db7e435c14d00bccfba5a6896bdfc15cf",
+    "target": "0x00068db8bac710cb295e9e1b089a027525460aa64c2f837b4a2339c0ebedfa42"
   }
 }
 ```
@@ -71,8 +71,8 @@ Send Example (nonce: u64):
   "id": 3,
   "method": "ckb_submitWork",
   "params": {
-    "pow_hash": "0xaf90c05a5fa4f1a4dc8b4833ae25a469fec4e603324322192ed28e1a80436d08",
-    "nonce": "100000"
+    "pow_hash": "0x6349f73a19471aff5aa5189b018c5d6db7e435c14d00bccfba5a6896bdfc15cf",
+    "nonce": "696156429613104250"
   }
 }
 ```
