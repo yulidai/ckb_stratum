@@ -1,4 +1,13 @@
-##### 0. Unified error return
+## Current Implementers
+##### Pool
+- SparkPool
+
+##### Miner
+- NBMiner
+- BMiner
+
+## Protocal Overview
+##### 0. Unified Error Return
 Error Response Example:
 ```json
 {
@@ -10,7 +19,7 @@ Error Response Example:
 }
 ```
 
-##### 1. handshake
+##### 1. Handshake
 Send Example:
 ```json
 {
@@ -32,7 +41,7 @@ Response:
 }
 ```
 
-##### 2. Get Job(获取任务)
+##### 2. Get Job
 Send Example:
 ```json
 {
@@ -64,7 +73,7 @@ Response(Server active push job, format ibid but `id` always zero
 }
 ```
 
-##### 3. submit share
+##### 3. Submit Share
 Send Example (nonce: u64):
 ```json
 {
@@ -85,7 +94,7 @@ Response:
 }
 ```
 
-#### # 4. submit local hashrate
+#### # 4. Submit Local Hashrate
 Send Example:
 ```json
 {
